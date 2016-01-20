@@ -16,8 +16,7 @@ public class BlogPostDAO {
     public BlogPostDAO(final MongoDatabase blogDatabase) {
         postsCollection = blogDatabase.getCollection("posts");
     }
-
-    // Return a single post corresponding to a permalink
+    
     public Document findByPermalink(String permalink) {
 
         // todo  XXX
@@ -57,7 +56,7 @@ public class BlogPostDAO {
         permalink = permalink.toLowerCase();
         permalink = permalink+ (new Date()).getTime();
 
-        
+
         Document post = new Document();
 
         Date now = new Date();
@@ -70,7 +69,7 @@ public class BlogPostDAO {
         return permalink;
     }
 
-    // Append a comment to a blog post
+
     public void addPostComment(final String name, final String email, final String body,
                                final String permalink) {
 

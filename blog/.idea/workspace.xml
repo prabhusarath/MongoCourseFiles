@@ -36,11 +36,11 @@
       <file leaf-file-name="BlogPostDAO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41680962">
-              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.30017152">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1093#1103#0" expanded="true" />
+                <element signature="e#1040#1050#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -626,7 +626,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1093#1103#0" expanded="true" />
+            <element signature="e#1040#1050#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -697,11 +697,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41680962">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.30017152">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1093#1103#0" expanded="true" />
+            <element signature="e#1040#1050#0" expanded="true" />
           </folding>
         </state>
       </provider>
