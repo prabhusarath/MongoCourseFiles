@@ -57,7 +57,7 @@ public class BlogPostDAO {
         permalink = permalink.toLowerCase();
         permalink = permalink+ (new Date()).getTime();
 
-        // Build the post object and insert it
+        
         Document post = new Document();
 
         Date now = new Date();
@@ -66,7 +66,7 @@ public class BlogPostDAO {
                 .append("tags", tags).append("date", now);
 
             postsCollection.insertOne(post);
-        
+
         return permalink;
     }
 
