@@ -9,7 +9,7 @@
     Welcome ${username} <a href="/logout">Logout</a> | <a href="/newpost">New Post</a>
 
 <#else>
-    Welcome Guest <a href="/signup">Signup</a>  | <a href="/login">Login </a>
+    Welcome Guest <a href="/signup">Signup</a>
 </#if>
 <p>
 
