@@ -16,7 +16,7 @@ public class BlogPostDAO {
     public BlogPostDAO(final MongoDatabase blogDatabase) {
         postsCollection = blogDatabase.getCollection("posts");
     }
-    
+
     public Document findByPermalink(String permalink) {
 
         // todo  XXX
